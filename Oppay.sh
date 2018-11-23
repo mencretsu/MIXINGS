@@ -2,10 +2,10 @@
 #version 1.0
 
 cd MIXING
-python pwd.py
+python2 pwd.py
 sleep 1
 cd MIXING
-python restart.py
+python2 restart.py
 
 # Variables
 b='\033[1m'
