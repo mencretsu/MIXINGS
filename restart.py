@@ -8,7 +8,7 @@ def mengetik(s):
         time.sleep(random.random() * 0.4)
 mengetik('menghubungi Mr Mbest..')
 mengetik('.')
-mengetik(▇▇')
+mengetik('▇▇')
 mengetik('mencoba meminta akses..')
          
 import random
