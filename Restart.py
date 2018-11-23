@@ -32,7 +32,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mZONA MERAH TELAH DIMULAI"
+			print "\033[1;32mZONA MERAH TELAH DIMULAI\033[00m"
 
 			sys.exit()
 
