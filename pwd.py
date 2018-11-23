@@ -4,7 +4,7 @@ import os, sys
 
 print ("\033[1;32mMasukin UserName&Password:)")
 
-print ("\033[1;32mHUBUNGI LANGSUNG Mr.MBEST √")
+print ("\033[1;32mHUBUNGI LANGSUNG Mr.MBEST ")
 
 username = 'mbest'      
 
@@ -32,7 +32,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mWelcome To Tools Kon", 
+			print "\033[1;32mSAMPAI JUMPA", 
 
 			sys.exit()
 
