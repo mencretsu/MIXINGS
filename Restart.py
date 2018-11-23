@@ -32,7 +32,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mZONA MERAH TELAH DIMULAI\033[00m"
+			print ("\033[1;32mZONA MERAH TELAH DIMULAI\033[00m")
 
 			sys.exit()
 
@@ -40,9 +40,9 @@ def main():
 
 		else:
 
-			print "\033[1;32mSorry Passwordmu salah tod !!!\033[00m"
+			print ("\033[1;32mSorry Passwordmu salah tod !!!\033[00m")
 
-			print "Back Login\n"
+			print ("Login Maning\n")
 
 			restart()
 
@@ -50,9 +50,9 @@ def main():
 
 	else:
 
-		print "\033[1;32mSorry..anda noob !!!\033[00m"
+		print ("\033[1;32mSorry..anda noob !!!\033[00m")
 
-		print "Back Login\n"
+		print ("Login Maning\n")
 
 		restart()
 
