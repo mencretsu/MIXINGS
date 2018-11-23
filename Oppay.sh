@@ -2,7 +2,7 @@
 #version 1.0
 
 cd MIXING
-python Restart.py
+python pwd.py
 sleep 1
 cd MIXING
 python restart.py
