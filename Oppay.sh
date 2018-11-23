@@ -204,13 +204,13 @@ python2 jomblo.py
 
 ;;
 
-19) pkg install python
+19) pip2 install requests
+pkg install python
 pkg install git
 pip install requests
-git clone 
-https://github.com/kumpul4semut/semut.git 
-cd semut
-python dor.py
+git clone https://github.com/albertoanggi/xl-py.git
+cd xl-py
+python app.py
 
 ;;
 
