@@ -1,8 +1,11 @@
 #!/bin/bash
 #version 1.0
 
-cd pheli
-python peli.py
+cd Restart
+python Restart.py
+sleep 1
+cd restart
+python restart.py
 
 # Variables
 b='\033[1m'
