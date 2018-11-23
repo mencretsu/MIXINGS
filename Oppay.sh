@@ -1,5 +1,7 @@
 #!/bin/bash
 #version 1.0
+cd MIXING
+python restart.py
 clear
 cd MIXING
 python2 pwd.py
