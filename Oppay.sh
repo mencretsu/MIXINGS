@@ -1,15 +1,9 @@
 #!/bin/bash
 #version 1.0
-
 clear
 cd MIXING
 python2 pwd.py
 sleep 1
-clear
-cd MIXING
-python2 restart.py
-clear
-
 # Variables
 b='\033[1m'
 u='\033[4m'
