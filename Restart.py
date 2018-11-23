@@ -32,7 +32,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mWelcome To Tools Kon", 
+			print "\033[1;32mZONA MERAH TELAH DIMULAI"
 
 			sys.exit()
 
