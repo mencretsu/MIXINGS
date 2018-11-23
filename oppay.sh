@@ -1,10 +1,10 @@
 #!/bin/bash
 #version 1.0
 
-cd Restart
+cd oppay
 python Restart.py
 sleep 1
-cd restart
+cd oppay
 python restart.py
 
 # Variables
