@@ -1,10 +1,10 @@
 #!/bin/bash
 #version 1.0
 
-cd MIX1
+cd MIXING
 python Restart.py
 sleep 1
-cd MIX1
+cd MIXING
 python restart.py
 
 # Variables
@@ -273,8 +273,8 @@ unzip PhisingOnline.zip
 python2 online.py
 
 ;;
-0) echo -e $bu"created by :MR.Mbest" 
-sleep 2
+0) echo -e $bu"KHO  -" 
+sleep 1
 echo -e $bu"THANK'S"
 exit
 ;;
