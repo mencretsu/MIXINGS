@@ -1,13 +1,13 @@
 #!/bin/bash
 #version 1.0
-cd MIXING
+
 python restart.py
 clear
-printf "  \e[101m\e[1;77m::  WELCOME::\e[0m\n"
-printf "  \e[101m\e[1;77m:: SEMOGA SELAMAT SAMPAI TUJUAN::\e[0m\n"
+printf "  \e[101m\e[1;77m  :::::::::WELCOME:::::::::\e[0m\n"
+printf "  \e[101m\e[1;77m ;;SEMOGA SELAMAT SAMPAI TUJUAN::\e[0m\n"
 
-cd MIXING
 python2 pwds.py
+
 # Variables
 b='\033[1m'
 u='\033[4m'
