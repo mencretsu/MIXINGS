@@ -2,9 +2,11 @@ import os, sys
 
 
 
+printf "  \e[101m\e[1;77m::  WELCOME::\e[0m\n"
+printf "  \e[101m\e[1;77m:: SEMOGA SELAMAT SAMPAI TUJUAN::\e[0m\n"
 print ("\033[1;32mMasukin UserName&Password:)")
 
-print ("\033[1;32mHUBUNGI LANGSUNG Mr.MBEST ")
+print ("\033[1;32mATAU HUBUNGI LANGSUNG Mr.MBEST ")
 
 username = 'mbest'      
 
