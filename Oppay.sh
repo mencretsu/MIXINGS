@@ -4,7 +4,7 @@ cd MIXING
 python restart.py
 clear
 cd MIXING
-python2 pwd.py
+python2 pwds.py
 # Variables
 b='\033[1m'
 u='\033[4m'
