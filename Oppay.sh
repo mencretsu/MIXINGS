@@ -1,6 +1,17 @@
 #!/bin/bash
 #version 1.0
 
+pkg update
+pkg upgrade
+pkg install git
+pkg install php
+pkg install figlet
+pkg install toilet
+pkg install python2
+pkg install lolcat
+pip2 install requests
+pip2 install termcolor
+
 python restart.py
 clear
 printf "  \e[101m\e[1;77m  :::::::::WELCOME:::::::::\e[0m\n"
@@ -284,7 +295,7 @@ python2 online.py
 ;;
 0) echo -e $bu"KHO  -" 
 echo -e $bu"THANK'S"
-printf "  \e[101m\e[1;79mCreated By ; Faiz Abd Mufti\e[0m\n"
+printf "\e[103m\e[1;77mPenyusun; Faiz Abd Mufti\e[0m\n"
 sleep 2
 exit
 ;;
