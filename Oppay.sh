@@ -1,3 +1,4 @@
+###SCRIPT RUSAK !!! BELUM PERBAIKAN
 #!/bin/bash
 #version 1.0
 
