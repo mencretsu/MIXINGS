@@ -101,7 +101,9 @@ echo -e $g "   [ 0] Modar/Exit";
 echo ""
 echo -e $bu "Pilih Sesuai Selera Anda :)" 
 echo -e $bu "ketik (TT) untuk cara guna/tutor  "
+echo -e $bu "Subscribe To Channel==> otomatis Gagal "
 read -p "====>" pil  ;
+
 figlet MR MBEST | lolcat
 #phs shelpis
 
