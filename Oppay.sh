@@ -40,17 +40,18 @@ figlet MIX-Tools | lolcat
 
 sleep 1
 
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒"   |lolcat
-echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      "|lolcat
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " |lolcat
-echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " |lolcat
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " |lolcat 
-echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   " |lolcat
+echo -e $g"▒▒▒  T▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒    "   
+echo -e $g"   ▒▒▒  E▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      "
+echo -e $g"▒▒▒   ▒▒▒  R▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " 
+echo -e $g"   ▒▒▒   ▒▒▒  M▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
+echo -e $g"▒▒▒   ▒▒▒   ▒▒▒ U ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
+echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒  X▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   " 
 echo -e $bl"."
 echo -e $bu "________________________________________"
 echo -e $bu  " Tools       : MIX-TOOL$white          " 
 echo -e $bu  " Author      : All Master Termux etc$white  " 
 echo -e $bu  " Contact     : 081235862*** $white " 
+echo -e $bu  "Thank,s for use this tools :)  "
 
 echo -e $bu  "_______________________________________" 
 sleep 1
@@ -101,7 +102,7 @@ echo -e $g "   [ 0] Modar/Exit";
 echo ""
 echo -e $bu "Pilih Sesuai Selera Anda :)" 
 echo -e $bu "ketik (TT) untuk cara guna/tutor  "
-echo -e $bu "Subscribe To Channel==> otomatis Gagal "
+echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
 figlet MR MBEST | lolcat
