@@ -9,16 +9,18 @@ pkg install php
 pkg install figlet
 pkg install toilet
 pkg install python2
-pkg install lolcat
+pkg install ruby
+gem install lolcat
 pip2 install requests
 pip2 install termcolor
 
-python restart.py
 clear
 printf "  \e[101m\e[1;77m  ::::::::>>>WELCOME<<<::::::::\e[0m\n"
 printf "  \e[101m\e[1;77m :::SEMOGA SELAMAT SAMPAI TUJUAN:::\e[0m\n"
 
 python2 pwds.py
+
+python restart.py
 
 # Variables
 b='\033[1m'
@@ -296,7 +298,6 @@ python2 online.py
 
 21)echo -e $bu"stok habis"
 
-(TT)echo -e $bu "O99920-892"
 ;;
 0) echo -e $bu"KHO  -" 
 echo -e $bu"THANK'S"
