@@ -15,8 +15,8 @@ pip2 install termcolor
 
 python restart.py
 clear
-printf "  \e[101m\e[1;77m  :::::::::WELCOME:::::::::\e[0m\n"
-printf "  \e[101m\e[1;77m ;;SEMOGA SELAMAT SAMPAI TUJUAN::\e[0m\n"
+printf "  \e[101m\e[1;77m  ::::::::>>>WELCOME<<<::::::::\e[0m\n"
+printf "  \e[101m\e[1;77m :::SEMOGA SELAMAT SAMPAI TUJUAN:::\e[0m\n"
 
 python2 pwds.py
 
@@ -45,7 +45,7 @@ echo -e $g"   ▒▒▒  E▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒
 echo -e $g"▒▒▒   ▒▒▒  R▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " 
 echo -e $g"   ▒▒▒   ▒▒▒  M▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
 echo -e $g"▒▒▒   ▒▒▒   ▒▒▒ U ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
-echo -e $g"   ▒▒▒   ▒▒▒   ▒▒▒  X▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   " 
+echo -e $g" 🇲🇨▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒  X▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒   " 
 echo -e $bl"."
 echo -e $bu "________________________________________"
 echo -e $bu  " Tools       : MIX-TOOL$white          " 
@@ -101,7 +101,6 @@ echo -e $g "   [21] Cara Guna Tool/Tutorial Singkat-_-" ;
 echo -e $g "   [ 0] Modar/Exit";
 echo ""
 echo -e $bu "Pilih Sesuai Selera Anda :)" 
-echo -e $bu "ketik (TT) untuk cara guna/tutor  "
 echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
@@ -171,7 +170,7 @@ bash instaspam.sh
 ;;
 
 20)echo "lu jones? santai bro.."
-echo "sabun masih banyak ;v"
+echo "sabun masih ada ;v"
 
 ;;
 
@@ -189,7 +188,7 @@ git clone https://github.com/thelinuxchoice/gmailshell.git
 cd gmailshell
 bash gmailshell.sh
 sleep 1
-echo -e $g"root dulu, baru bisa jalan tod"
+echo -e $g"root dulu, baru bisa jalan "
 
 ;;
 
@@ -198,7 +197,7 @@ git clone https://github.com/thelinuxchoice/facebash.git
 cd facebash
 bash facebash.sh
 sleep 2
-echo -e $g"root dulu kalo mau akses tool ini mbod "
+echo -e $g"root dulu kalo mau akses tool ini nke "
 
 ;;
 
@@ -295,7 +294,9 @@ python2 online.py
 
 ;;
 
-21)cd tutor
+21)echo -e $bu"stok habis"
+
+(TT)echo -e $bu "O99920-892"
 ;;
 0) echo -e $bu"KHO  -" 
 echo -e $bu"THANK'S"
