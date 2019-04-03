@@ -9,13 +9,14 @@ pkg install php
 pkg install figlet
 pkg install toilet
 pkg install python2
+pkg install python
 pkg install ruby
 gem install lolcat
 pip2 install requests
 pip2 install termcolor
 
 clear
-printf "  \e[101m\e[1;77m  ::::::::>>>WELCOME<<<::::::::\e[0m\n"
+printf "  \e[101m\e[1;77m  :::::::::>>>WELCOME<<<:::::::::\e[0m\n"
 printf "  \e[101m\e[1;77m :::SEMOGA SELAMAT SAMPAI TUJUAN:::\e[0m\n"
 
 python2 pwds.py
@@ -42,12 +43,9 @@ figlet MIX-Tools | lolcat
 
 sleep 1
 
-echo -e $g"▒▒▒  T▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒    "   
-echo -e $g"   ▒▒▒  E▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      "
-echo -e $g"▒▒▒   ▒▒▒  R▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " 
-echo -e $g"   ▒▒▒   ▒▒▒  M▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
-echo -e $g"▒▒▒   ▒▒▒   ▒▒▒ U ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒      " 
-echo -e $g" 🇲🇨▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒  X▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒ 🇲🇨▒▒▒   " 
+echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒    "   
+echo -e $g"  T▒▒▒  E▒▒▒  R▒▒▒ M ▒▒▒  U▒▒▒  X ▒▒▒   "
+echo -e $g"▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒   ▒▒▒           " 
 echo -e $bl"."
 echo -e $bu "________________________________________"
 echo -e $bu  " Tools       : MIX-TOOL$white          " 
@@ -76,7 +74,7 @@ while [ $lagi -lt 20 ];
 do
 
 sleep 1
-echo -e $g"     ༎༎༎༎༎༎༎༎༎MENU VIP༎༎༎༎༎༎༎༎༎ "
+echo -e $g"     +_+༎༎༎༎༎༎༎༎༎MENU VIP༎༎༎༎༎༎༎༎༎+_+ "
 sleep 2
 echo -e $g" +++++++++++++++++++++++++++++ "
 echo -e $g "   [ 1] PHISING V1${enda}";
@@ -106,7 +104,7 @@ echo -e $bu "Pilih Sesuai Selera Anda :)"
 echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
-figlet MR MBEST | lolcat
+figlet Mix-TooLs | lolcat
 #phs shelpis
 
 case $pil in
@@ -296,12 +294,12 @@ python2 online.py
 
 ;;
 
-21)echo -e $bu"stok habis"
+21)echo -e $bu"Stok Habis"
 
 ;;
 0) echo -e $bu"KHO  -" 
 echo -e $bu"THANK'S"
-printf "\e[103m\e[1;77mPenyusun; Faiz Abd Mufti\e[0m\n"
+printf "\e[103m\e[1;77mBY; Faiz Abd Mufti\e[0m\n"
 sleep 2
 exit
 ;;
