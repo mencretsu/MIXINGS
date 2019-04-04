@@ -38,7 +38,7 @@ def main():
 
 		else:
 
-			print "\033[1;32mSorry Passwordmu salah tod !!!\033[00m"
+			print "\032[1;32mSorry Passwordmu salah cok !!!\033[00m"
 
 			print "Back Login\n"
 
