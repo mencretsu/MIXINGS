@@ -6,6 +6,7 @@ pkg update
 pkg upgrade
 pkg install git
 pkg install php
+pkg install wget
 pkg install figlet
 pkg install toilet
 pkg install python2
@@ -76,7 +77,7 @@ do
 sleep 1
 echo -e $g"     +_+༎༎༎༎༎༎༎༎༎MENU VIP༎༎༎༎༎༎༎༎༎+_+ "
 sleep 2
-echo -e $g" +++++++++++++++++++++++++++++ "
+echo -e $g" ++++++++++++++++++++++++++++++++++++++ "
 echo -e $g "   [ 1] PHISING V1${enda}";
 echo -e $g "   [ 2] PHISING V2${endc}";
 echo -e $g "   [ 3] PHISING V3${endc}";
@@ -96,12 +97,12 @@ echo -e $g "   [16] Spam WA";
 echo -e $g "   [17] Spam Sms";
 echo -e $g "   [18] Youtube AutoView (#root)";
 echo -e $g "   [19] Tembak Kuota XL";
-echo -e $g "   [20] Tembak Cewe(khusus jones :v)";
-echo -e $g "   [21] Cara Guna Tool/Tutorial Singkat-_-" ;
+echo -e $g "   [20] Tembak Cewe(khusus jones )";
+echo -e $g "   [21] Cara Guna Tool/Tutorial Singkat_-" ;
 echo -e $g "   [ 0] Modar/Exit";
 echo ""
 echo -e $bu "Pilih Sesuai Selera Anda :)" 
-echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[ga subskreb auto mandul kere boss:v]"
+echo -e $bu "Subscribe To Channel==> otomatis Gagal <==[        ga subskreb auto mandul kere boss:v]"
 read -p "====>" pil  ;
 
 figlet Mix-TooLs | lolcat
@@ -110,6 +111,8 @@ figlet Mix-TooLs | lolcat
 case $pil in
 1)apt update
 apt upgrade
+pkg install openssh
+pkg install curl
 git clone https://github.com/thelinuxchoice/shellphish.git
 cd shellphish
 bash shellphish.sh
