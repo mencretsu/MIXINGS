@@ -4,9 +4,9 @@ print ("\033[1;32mMasukin UserName&Password:)")
 
 print ("\033[1;32mATAU HUBUNGI LANGSUNG Mr.MBEST ")
 
-username = 'mbest'      
+username = 'Mbest'      
 
-password = 'sempak'
+password = 'S3MP4K'
 
 
 
